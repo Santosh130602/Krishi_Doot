@@ -1,0 +1,50 @@
+/* Register.css */
+
+.container {
+    max-width: 90%;
+    color: #6c757d;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    width: 40%;
+}
+
+.btn-secondary {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.text-primary {
+    margin-bottom: 20px;
+}
+
+.text-secondary {
+    margin-top: 20px;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.vh-100 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
