@@ -34,8 +34,8 @@ class CardBar extends Component {
             //  onClick={() => navigate("/crop")}
             // onClick={this.handleCropRecommendationClick}
              >
-              <div className="inline-flex flex-col space-y-6 items-center justify-end flex-1 h-full pl-9 pr-8 pt-8 pb-11 bg-white border rounded border-black border-opacity-10"  >
-                <img className="bg-cover rounded-lg" src={CropRecom} alt="Crop Recommendation" />
+              <div className="inline-flex flex-col space-y-6 items-center justify-end flex-1 h-full pl-9 pr-8 pt-8 pb-11 bg-white border rounded border-black border-opacity-10" onClick={() => {window.location.href = "/crop";}} >
+                <img className="bg-cover rounded-lg" src={CropRecom}  alt="Crop Recommendation" />
                 <p className="w-56 h-7 text-lg font-semibold text-gray-900 text-center">
                 Crop Recommendation
                 </p>
@@ -46,7 +46,7 @@ class CardBar extends Component {
               </div>
             </div>
             <div className="w-1/4 h-full">
-              <div className=" Fertilizer inline-flex flex-col space-y-6 items-center justify-end flex-1 h-full pl-9 pr-8 pt-8 pb-11 bg-white border rounded border-black border-opacity-10">
+              <div className=" Fertilizer inline-flex flex-col space-y-6 items-center justify-end flex-1 h-full pl-9 pr-8 pt-8 pb-11 bg-white border rounded border-black border-opacity-10" onClick={() => {window.location.href = "/fertilizer";}}>
                 <img className="bg-cover rounded-lg" src={Fertilizer} alt="Fertilize"/>
                 <p className="w-56 h-7 text-lg  font-semibold text-gray-900 text-center">
                 Fertilizer Recommendation
@@ -58,7 +58,7 @@ class CardBar extends Component {
             </div>
 
             <div className="w-1/4 h-full">
-              <div className="inline-flex flex-col space-y-6 items-center justify-end flex-1 h-full pl-9 pr-8 pt-8 pb-11 bg-white border rounded border-black border-opacity-10">
+              <div className="inline-flex flex-col space-y-6 items-center justify-end flex-1 h-full pl-9 pr-8 pt-8 pb-11 bg-white border rounded border-black border-opacity-10" onClick={() => {window.location.href = "/GovSchem";}}>
                 <img
                   src={MarketPrice}
                   className="bg-cover rounded-lg"

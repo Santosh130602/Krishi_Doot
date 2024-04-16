@@ -8,6 +8,7 @@ import SmsService from "./pages/sms/sms";
 import Disease from "./pages/disease/disease";
 import Register from "./pages/login/SignUp";
 import Login from "./pages/login/login";
+import GovSchem from "./pages/GovSche/GovSch";
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/voice" element={<Voice />} />
-          <Route path="/fertilizer" element={<Fertilizer />} />
           <Route path="/Crop" element={<Crop/>} />
-          <Route path="/sms" element={<SmsService />} />
+          <Route path="/fertilizer" element={<Fertilizer />} />
           <Route path="/disease" element={<Disease />} />
+          <Route path="/sms" element={<SmsService />} />
+          <Route path="/voice" element={<Voice />} /> 
+          <Route path="/GovSchem" element = {<GovSchem/>} />
           <Route path="/register" element ={<Register/>} />
           <Route path="/login" element ={<Login/>} />
         </Routes>

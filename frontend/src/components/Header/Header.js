@@ -41,7 +41,7 @@ const Header = () => {
               Disease 
             </li>
              <li
-              onClick={() => navigate("/disease")}
+              onClick={() => navigate("/GovSchem")}
               className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
             >
               Market Price

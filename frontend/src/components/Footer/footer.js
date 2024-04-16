@@ -5,7 +5,7 @@ import logo from "../img/logo-krishiDoot.png";
 import Vector from "../img/Vector.png";
 import Vector1 from "../img/Vector1.png";
 import Vector2 from "../img/Vector2.png";
-import Vector4 from "../img/Vector4.png";
+import Vector4 from "../img/linkedin02.png";
 
 
 const Footer = () => {
@@ -59,9 +59,9 @@ const Footer = () => {
               </a>
               <a href="https://www.linkedin.com/in/santosh-pal-7b7b95253/" target="_blank" rel="noopener noreferrer">
               <img
-              className="socialIcons mx-3 ml-6 cursor-pointer"
+              className="socialIcons mx-3 ml-6 w-10 h-10 cursor-pointer"
               src={Vector4}
-              alt="twitor"
+              alt="linkedIn"
               />
               </a>
           </div> 
@@ -69,7 +69,7 @@ const Footer = () => {
       </div>
       <div className="subFooter">
       <p className="text-lg ml-6 text-white">
-            Developed by : <strong><a href="https://github.com/Santosh130602/">@ code_roster</a></strong>
+            Developed by : <strong><a href="https://portfolio-gamma-sepia-15.vercel.app/">@ code_roster</a></strong>
           </p>
       </div>
     </div>
