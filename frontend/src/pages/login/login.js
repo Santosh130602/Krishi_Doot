@@ -17,7 +17,7 @@ const Login = () => {
         event.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:8000/api/v1/login', { email, password });
+            const response = await axios.post('https://krishi-doot.onrender.com/api/v1/login', { email, password });
             const data = response.data;
 
             if (data.success) {
