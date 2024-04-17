@@ -17,7 +17,7 @@ const Register = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         
-        axios.post( 'https://krishi-doot.onrender.com', {name, email, password})
+        axios.post( 'https://krishi-doot.onrender.com/api/v1/SignUp', {name, email, password})
         .then(result => {
             console.log(result);
             if(result.data === "Already registered"){
