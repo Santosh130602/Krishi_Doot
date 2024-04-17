@@ -5,4 +5,4 @@ joblib
 scikit-learn
 gunicorn
 flask_cors
-
+pickle
