@@ -24,7 +24,7 @@ const Appoinment = () => {
     };
   
     // Send a POST request to the backend
-    fetch('http://localhost:8000/api/v1/appoinment', {
+    fetch('https://krishi-doot.onrender.com/api/v1/appoinment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
