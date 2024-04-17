@@ -2,6 +2,6 @@ flask
 numpy
 pandas
 joblib
-scikit-learn
+scikit-learn==1.4.2
 gunicorn
 flask_cors
