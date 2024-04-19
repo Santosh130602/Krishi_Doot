@@ -20,7 +20,7 @@ const Crop = () => {
 
   function onSearchSubmit() {
     setLoad(true);
-    let url = 'https://krishi-doot-1.onrender.com/predict'
+    let url = 'https://krishi-ml.onrender.com/predict'
     let body = JSON.stringify({
       N: parseFloat(nitrogen),
       P: parseFloat(phosphorus),
