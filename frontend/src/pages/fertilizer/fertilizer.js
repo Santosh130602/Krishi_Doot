@@ -41,7 +41,7 @@ const Fertilizer = () => {
     };
 
     // Send POST request to backend
-    fetch("http://127.0.0.1:4000/fertilizer", {
+    fetch("https://krishi-ml.onrender.com/fertilizer", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
