@@ -80,6 +80,10 @@
 // }
 
 // export default CardBar;
+
+
+
+
 import { Component } from "react";
 import React from "react";
 import "./CardBar.css"
