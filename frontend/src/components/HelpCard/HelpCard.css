@@ -1,0 +1,8 @@
+@media (max-width: 500px) {
+    .inPhoneHelpCard {
+        justify-content:space-evenly;
+      flex-direction: column;
+      gap: 6rem;
+      margin-left: 10rem;
+    }
+  }
