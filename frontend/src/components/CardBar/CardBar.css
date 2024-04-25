@@ -1,9 +1,9 @@
 @media (max-width: 500px) {
-    .inPhone {
+    .inPhoneCardBar {
         justify-content:space-evenly;
       flex-direction: column;
       gap: 5rem;
-      margin-right: 10rem;
+      margin-right: 100px;
     }
   }
   
