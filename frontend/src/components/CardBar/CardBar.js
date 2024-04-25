@@ -82,8 +82,6 @@
 // export default CardBar;
 
 
-
-
 import { Component } from "react";
 import React from "react";
 import "./CardBar.css"
@@ -116,7 +114,7 @@ class CardBar extends Component {
           </p>
         </div>
         <div className="grid  place-items-center mt-14 mb-20 mr-9">
-          <div className="inPhoneCardBar flex space-x-38 items-center justify-center">
+          <div className="inPhoneCardBar flex space-x-38 space-y-3 items-center justify-center gap-x-36">
             <div className="w-1/5 h-full ">
               <div className="inline-flex flex-col space-y-6 items-center justify-end flex-1 h-full pl-9 pr-8 pt-8 pb-11 bg-white border rounded border-black border-opacity-10" onClick={() => {window.location.href = "/crop";}} >
                 <img className="bg-cover rounded-lg" src={CropRecom}  alt="Crop Recommendation" />
