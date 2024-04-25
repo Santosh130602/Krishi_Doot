@@ -1,3 +1,9 @@
-.Fertilizer{
-    background-image: url("../img/Fertilizer.jpeg");
-}
+@media (max-width: 500px) {
+    .inPhone {
+        justify-content:space-evenly;
+      flex-direction: column;
+      gap: 5rem;
+      margin-right: 10rem;
+    }
+  }
+  
