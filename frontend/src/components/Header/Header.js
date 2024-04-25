@@ -90,12 +90,12 @@
 
 
 
+
 import React, { useState, useEffect } from "react";
 import "./Header.css";
 import { useNavigate } from "react-router-dom";
-import hambreger from "../img/hamberge.png";
 // import logo from "../img/logo-krishiDoot.png";
-// import hambreger from "../img/hamberge.png";
+import hambreger from "../img/hamberger.png";
 import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -173,3 +173,4 @@ const Header = () => {
   );
 };
 export default Header;
+
