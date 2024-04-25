@@ -12,6 +12,7 @@
 
 
 
+
 .active{
     background-color: #1d4ed8;
 }
@@ -67,9 +68,13 @@ nav .menu {
     /* color: black; */
     color: black; /* Change this to your desired color */
 }
+.menu img{
+    height: 3rem;
+    margin-right: 1.8rem;
+}
 
 nav .menu span {
-    height: 0.4rem;
+    height: 0.7rem;
     width: 100%;
     background-color: #fff;
     border-radius: 0.2rem;
