@@ -81,7 +81,7 @@ nav .menu span {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
     nav .menu {
         display: flex;
         color: black;
